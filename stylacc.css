@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+header{
+    height: 100vh;
+    -webkit-background-size : cover;
+    background-size : cover;
+    background-position: center center;
+    position: relative;
+
+}
+.wrap{
+    width : 1170px; 
+    margin-right: 50px;
+    float: right;
+}
+.navigation{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 18px;
+
+}
+.navigation li a:hover{
+    background: white;
+    color: #333;
+}
